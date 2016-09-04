@@ -33,6 +33,7 @@ module.exports = {
         loaders: [{
             loader: 'babel-loader',
             query: {
+                compact: false,
                 presets: ['react', 'es2015']
             },
             test: /\.jsx?$/,
